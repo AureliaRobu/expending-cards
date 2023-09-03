@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+	flex:0.5;
+	transition: flex 700ms ease-in;
+}
+
+.active {
+	flex:5;
+}
+
+.active h3 {
+	opacity: 1;
+	transition: opacity 0.3s ease-in 0.4s;
+}
+
